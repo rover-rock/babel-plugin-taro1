@@ -1,0 +1,13 @@
+{
+  "name": "babel-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx babel src --out-dir dist"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2"
+  }
+}
